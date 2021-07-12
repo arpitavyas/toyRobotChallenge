@@ -48,7 +48,7 @@ public class ToyRobotChallengeApplicationTests {
 		game.play("PLACE 0,0,NORTH");
 		Assert.assertEquals("0,0,NORTH", game.play("REPORT"));
 
-		/** ### Example a
+		/**
 		 PLACE 0,0,NORTH
 		 MOVE
 		 REPORT
